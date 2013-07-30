@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Linq;
-using GettingStarted.Model;
+using UpdateSourceExplicit.Data;
+using UpdateSourceExplicit.View;
+using UpdateSourceExplicit.Model;
 
-namespace GettingStarted.ViewModel
+namespace UpdateSourceExplicit.ViewModel
 {
     public class EditEmployeeViewModel : ViewModelBase
     {
-        private readonly Employee employee;
+        private Employee employee;
 
         public EditEmployeeViewModel(Employee employee)
         {

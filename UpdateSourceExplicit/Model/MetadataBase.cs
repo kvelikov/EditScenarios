@@ -4,9 +4,9 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
-namespace GettingStarted.Model
+namespace UpdateSourceExplicit.Model
 {
-    public class MetadataBase : IDataErrorInfo
+    public class MetadataBase :  IDataErrorInfo
     {
         public string Error
         {

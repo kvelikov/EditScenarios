@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
-namespace GettingStarted.Model
+namespace UpdateSourceExplicit.Model
 {
     [MetadataType(typeof(Employee.Metadata))]
     public partial class Employee : MetadataBase

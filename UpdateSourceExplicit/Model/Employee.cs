@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
-namespace GettingStarted.Model
+namespace UpdateSourceExplicit.Model
 {
     // This class can be auto generated.
     public partial class Employee : INotifyPropertyChanged
